@@ -51,7 +51,7 @@ export default function Page() {
               href: "#about"
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763162898912-glnqpgox.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763163545303-zgxf6iwg.jpg"
           imageAlt="Movie poster featuring Vera and Bennet"
           imagePosition="right"
         />
