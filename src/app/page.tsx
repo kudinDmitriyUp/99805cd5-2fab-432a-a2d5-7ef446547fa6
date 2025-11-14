@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -7,7 +7,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Heart, Instagram, Mail, Play, Star, User, Users } from "lucide-react";
+import { Heart, Mail, Play, Star, User, Users, Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function Page() {
   return (
@@ -211,17 +211,17 @@ export default function Page() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/veraandbennetfilm",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/veraandbennetfilm",
               ariaLabel: "Like us on Facebook"
             },
             {
-              icon: "Twitter",
+              icon: Twitter,
               href: "https://twitter.com/veraandbennet",
               ariaLabel: "Follow us on Twitter"
             }
