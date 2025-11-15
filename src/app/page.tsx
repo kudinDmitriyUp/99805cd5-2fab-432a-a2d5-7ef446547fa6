@@ -37,15 +37,13 @@ export default function Page() {
       
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="A Journey Through Grief"
+          title="A Journey Through Grief
+"
           description="Follow Vera and Bennet as they navigate the complex emotional landscape of loss, discovering that acceptance is not the end, but a new beginning."
           tag="Now Available"
           tagIcon={Play}
           buttons={[
-            {
-              text: "Watch Trailer",
-              href: "https://youtube.com"
-            },
+            { text: "Watch Trailer", href: "https://www.dialedweb.com/" },
             {
               text: "Learn More",
               href: "#about"
